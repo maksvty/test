@@ -1,0 +1,26 @@
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 8px 10px;
+
+  background-color: #F2F3F7;
+
+  position: sticky;
+  bottom: 0;
+
+  z-index: 2;
+}
+
+.menu a {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+
+  color: #111;
+}
+
+.menu a img{
+  width: 25px;
+}

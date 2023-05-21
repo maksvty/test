@@ -1,0 +1,23 @@
+.header {
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  background-color: #F2F3F7;
+
+  z-index: 2;
+}
+
+.link {
+  display: block;
+
+  font-size: 22px;
+  font-weight: 500;
+
+  padding: 2px 6px;
+
+  border: 2px solid #000;
+}

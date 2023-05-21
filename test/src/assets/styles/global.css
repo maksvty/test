@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+h1:first-of-type {
+  margin-top: 0;
+}
+
+h2:first-of-type {
+  margin-top: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 5px 8px;
+
+  background-color: lightgray;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.btn-reset {
+
+}
+
+main {
+  margin: 0 10px;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+}
